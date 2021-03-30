@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#debut {
+    width: 50%;
+    height: 40vh;
+    position: absolute;
+    left: -20%;
+    right: 0;
+    margin: 0 auto;
+    top: 40%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0, 0.8);
+    line-height: 11vh;
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* .debut h2{
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+
+} */
+
+#debut span {
+    color: tomato;
+    font-size: 35px;
+   
+} 
+/* #test {
+    display:none;
+    width: 50%;
+    height: 40vh;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 50px;
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    margin-left: 150px;
+    
+}
+#test ul {
+    color: tomato;
+    font-size: 40px;
+   
+    margin-left: -38px;
+   
+}
+#test ul li {
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 20px;
+} */
+#départ {
+    display:none;
+    /* width: 50%;
+    height: 40vh; */
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 301px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    height: 120px;
+    margin-left: 10px;
+    color:#fff;
+    
+}
+#panneau {
+    display:none;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 271px;
+    font-size: 30px;
+    text-align: center;
+    width: 430px;
+    height: 137px;
+    margin-left: 50px;
+    color:#fff;
+}
+#arbre {
+    display:none;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top:260px;
+    font-size: 30px;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    margin-left: 437px;
+    color:#fff;
+}
+#poule {
+    display:none;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 564px;
+    font-size: 30px;
+    text-align: center;
+    width: 320px;
+    height: 50px;
+    margin-left: 20px;
+    color:#fff;
+    
+}
+#barque{
+    display:none;
+    width: 50%;
+    height: 40vh;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 120px;
+    font-size: 30px;
+    text-align: center;
+    width: 330px;
+    height: 350px;
+    margin-left: 400px;
+    color:#fff;
+    line-height: 40px;
+    
+}
+#barque ul li {
+    list-style: none;
+    text-align: center;
+}
+#barque ul {
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+}
+#maison1{
+    display:none;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 605px;
+    font-size: 30px;
+    text-align: center;
+    width: 290px;
+    height: 50px;
+    margin-left: 973px;
+    color:#fff;
+}
+#maison2{
+    display:none;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 384px;
+    font-size: 30px;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    margin-left: 1100px;
+    color:#fff;
+    
+}
+#maison2 ul li {
+    list-style: none;
+}
+#maison2 ul{
+    padding: 0%;
+}
+#maison2 ul li:nth-child(2) a{
+    color: tomato;
+}
+#cheval{
+    display:none;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 128px;
+    font-size: 30px;
+    text-align: center;
+    width: 600px;
+    height: 340px;
+    margin-left: 600px;
+    color:#fff;
+}
+
+#cheval ul li {
+    list-style: none;
+}
+#sapin{
+    display:none;  
+    position: absolute;
+    background: rgba(0,0,0, 0.9);
+    top: 90px;
+    font-size: 30px;
+    text-align: center;
+    width: 710px;
+    height: 600px;
+    margin-left: 800px;
+    line-height: 7vh;
+    color:#fff;
+    z-index: 2;
+}
+#sapin ul li {
+    list-style: none;
+}
+#sapin ul{
+    padding: 0%;
+}
+#fleur {
+    display:none;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 60px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    margin-left: 1222px;
+    color:#fff;
+}
+#panneau2 {
+    display:none;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 255px;
+    font-size: 13px;
+    text-align: center;
+    width: 104px;
+    height: 32px;
+    margin-left: 1208px;
+    color:#fff;
+    z-index: 1;
+}
+#cv{
+    display:block;
+    position: absolute;
+    background: rgba(0,0,0, 0.8);
+    top: 9px;
+    font-size: 20px;
+    text-align: center;
+    width: 117px;
+    height: 32px;
+    margin-left: 1399px;
+    color:#fff;
+    
+
+}
+a:visited {
+    color: tomato;
+}
